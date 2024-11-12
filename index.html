@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Renaissance Experience</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Main Content Section -->
+<!-- Header Section -->
+<header>
+  <h1>Renaissance Experience</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="history.html">History</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Main Content Section -->
+<main>
+    <section class="media-section">
+      <h2>Explore the Renaissance</h2>
+      <!-- Tab Menu -->
+      <div class="tab-menu">
+        <button class="tab-button active" onclick="openTab('image')">Image</button>
+        <button class="tab-button" onclick="openTab('audio')">Audio</button>
+        <button class="tab-button" onclick="openTab('video')">Video</button>
+      </div>
+
+      <!-- Image Tab Content -->
+      <div id="image" class="tab-content active">
+        <h3>Renaissance Art Collection</h3>
+        <div class="media-grid">
+          <div class="media-item">
+            <h4>Portrait of a Woman, painted by Italian Renaissance master Giovanni Battista Moroni</h4>
+            <a href="#">
+              <img src="https://i.imgur.com/f8rFPts_d.jpeg?maxwidth=520&shape=thumb&fidelity=high" alt="Renaissance Art 1">
+            
+            </a>
+          </div>
+          <div class="media-item">
+            <h4>Mona Lisa</h4>
+            <a href="#" target="_blank">
+              <img src="https://i.imgur.com/osu2Dgs.jpeg" alt="Renaissance Art 2">
+             
+            </a>
+          </div>
+          <div class="media-item">
+            <h4>The Birth of Venus</h4>
+            <a href="#" target="_blank">
+              <img src="https://i.imgur.com/2rXGbzW.jpeg" alt="Renaissance Art 3">
+             
+            </a>
+          </div>
+          <div class="media-item">
+            <h4>The last Supper</h4>
+            <a href="images/renaissance-art4.jpg" target="_blank">
+              <img src="https://i.imgur.com/e8hyGow.jpeg" alt="Renaissance Art 4">
+            
+            </a>
+          </div>
+          <div class="media-item">
+            <h4>The Creation of Adam</h4>
+            <a href="#" target="_blank">
+              <img src="https://i.imgur.com/eJvmbpL.jpeg" alt="Renaissance Art 5">
+            </a>
+          </div>
+          <div class="media-item">
+            <h4>The School of Athens</h4>
+            <a href="#" target="_blank">
+              <img src="https://i.imgur.com/NJhmHfd.jpeg" alt="Renaissance Art 6">
+            </a>
+          </div>
+          <div class="media-item">
+            <h4>The Sistine Madonna</h4>
+            <a href="#" target="_blank">
+              <img src="https://i.imgur.com/N6iIYt5.jpeg" alt="Renaissance Art 7">
+            </a>
+          </div>
+          <div class="media-item">
+            <h4>The Statue of David</h4>
+            <a href="#" target="_blank">
+              <img src="https://i.imgur.com/0fhUiyn.jpeg" alt="Renaissance Art 8">
+            </a>
+          </div>
+          <div class="media-item">
+            <h4>The Ghent Altarpiece</h4>
+            <a href="#" target="_blank">
+              <img src="https://i.imgur.com/57uniPu.jpeg" alt="Renaissance Art 9">
+            </a>
+          </div>
+          <div class="media-item">
+            <h4>The gilded bronze doors of the Baptistery of Florence's cathedral</h4>
+            <a href="#" target="_blank">
+              <img src="https://i.imgur.com/t78Xr0M.jpeg" alt="Renaissance Art 10">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Audio Tab Content -->
+      <div id="audio" class="tab-content">
+        <h3>Renaissance Music Collection</h3>
+        <p>Discover the sounds of the Renaissance period with these iconic musical pieces.</p>
+        <div class="media-grid">
+          <div class="media-item">
+            <h4>Ancient Music in the Loire Valley.</h4>
+            <audio controls>
+              <source src="https://cdn60.savetube.su/media/vxPB76pmWss/renaissance-music-in-a-castle-ancient-music-in-the-loire-valley-128-ytshorts.savetube.me.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+          <div class="media-item">
+            <h4>Renaissance music - Tourdion</h4>
+            <audio controls>
+              <source src="https://cdn51.savetube.su/media/yvjuv4IIKcU/renaissance-music-tourdion-128-ytshorts.savetube.me.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+          <!-- Continue adding audio elements for each track as needed -->
+        </div>
+      </div>
+
+      <!-- Video Tab Content -->
+      <div id="video" class="tab-content">
+        <h3>Renaissance Documentaries</h3>
+        <p>Watch informative documentaries to dive deeper into the Renaissance period.</p>
+        <div class="media-grid">
+          <div class="media-item">
+            <h4>Documentary 1: History of Renaissance</h4>
+            <!-- CDN Hosted Video -->
+            <iframe class="video-iframe" src="https://www.youtube.com/embed/6DhaGe1DvsY" title="Brief History of the Renaissance | 5 MINUTES" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <div class="media-item">
+            <h4>Documentary 2: Exploring the Renaissance</h4>
+            <!-- CDN Hosted Video -->
+            <iframe class="video-iframe" src="https://www.youtube.com/embed/GOjBbkGiwq0" title="Exploring the Renaissance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+</main>
+
+
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 Renaissance Experience</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
